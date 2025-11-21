@@ -17,6 +17,7 @@ def calculate_factorial(num):
     
 print(calculate_factorial(9))
 
+
 # Ques 3
 
 reversed_str = ""
@@ -41,7 +42,6 @@ print(sum_of_lists(a, b))
 # Ques 5
 
 def distnct_sorted(l1):
-    # l1.distinct()
     l1 = list(set(l1))
     l1.sort()
     return l1
